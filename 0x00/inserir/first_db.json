@@ -1,1 +1,38 @@
-[{"id":1,"nome":"Betty","email":"betty@techcamps.com","telefone":12345678},{"id":2,"nome":"Ana","email":"ana@ana.com","telefone":10102020},{"id":3,"nome":"Luna","email":"luna@luna.com","telefone":20203030},{"id":4,"nome":"Jena","email":"jena@jena.com","telefone":30304040},{"id":5,"nome":"Mila","email":"mila@mila.com","telefone":40405050},{"id":6,"nome":"Sandy","email":"sandy@sandy.com","telefone":50506060}]
+[
+  {
+    "id": 1,
+    "nome": "Betty",
+    "email": "betty@techcamps.com",
+    "telefone": 12345678
+  },
+  {
+    "id": 2,
+    "nome": "Ana",
+    "email": "ana@ana.com",
+    "telefone": 10102020
+  },
+  {
+    "id": 3,
+    "nome": "Luna",
+    "email": "luna@luna.com",
+    "telefone": 20203030
+  },
+  {
+    "id": 4,
+    "nome": "Jena",
+    "email": "jena@jena.com",
+    "telefone": 30304040
+  },
+  {
+    "id": 5,
+    "nome": "Mila",
+    "email": "mila@mila.com",
+    "telefone": 40405050
+  },
+  {
+    "id": 6,
+    "nome": "Sandy",
+    "email": "sandy@sandy.com",
+    "telefone": 50506060
+  }
+]
