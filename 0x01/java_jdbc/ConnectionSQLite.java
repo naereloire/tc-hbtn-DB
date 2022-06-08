@@ -5,7 +5,7 @@ import java.sql.*;
 import static java.lang.System.*;
 
 public class ConnectionSQLite {
-  private static void init() {
+  private static void initConnection() {
     try (Connection connection =
         DriverManager.getConnection("jdbc:sqlite:sqlite_database_2022.db")) {
 
@@ -17,6 +17,6 @@ public class ConnectionSQLite {
   }
 
   public static void main(String[] args) {
-    init();
+    initConnection();
   }
 }
