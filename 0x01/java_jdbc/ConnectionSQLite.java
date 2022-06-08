@@ -6,8 +6,8 @@ import static java.lang.System.*;
 
 public class ConnectionSQLite {
   private static void initConnection() {
-    try (Connection connection =
-        DriverManager.getConnection("jdbc:sqlite:sqlite_database_2022.db")) {
+    String url = "jdbc:sqlite:sqlite_database_2022.db";
+    try (Connection connection = DriverManager.getConnection(url)) {
 
       out.println("Conexão realizada !!!!");
 
