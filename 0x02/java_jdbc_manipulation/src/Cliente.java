@@ -5,7 +5,7 @@ public class Cliente {
   private String nome;
   private Integer idade;
   private String cpf;
-  private String RG;
+  private String Rg;
 
   public Integer getId() {
     return id;
@@ -39,11 +39,11 @@ public class Cliente {
     this.cpf = cpf;
   }
 
-  public String getRG() {
-    return RG;
+  public String getRg() {
+    return Rg;
   }
 
-  public void setRG(String RG) {
-    this.RG = RG;
+  public void setRg(String rg) {
+    this.Rg = rg;
   }
 }
