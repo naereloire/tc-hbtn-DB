@@ -10,7 +10,7 @@ import java.util.List;
 
 public class AlunoModel {
   EntityManagerFactory entityManagerFactory =
-      Persistence.createEntityManagerFactory("administrativo-jpa");
+      Persistence.createEntityManagerFactory("gestao-cursos-jpa");
   EntityManager entityManager = null;
   EntityTransaction entityTransaction = null;
 
