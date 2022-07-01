@@ -56,7 +56,7 @@ public class PessoaModel {
       entityTransaction = entityManager.getTransaction();
       entityTransaction.begin();
       pessoas =
-          entityManager.createQuery("SELECT * FROM" + Produto.class.getName()).getResultList();
+          entityManager.createQuery("SELECT * FROM" + Pessoa.class.getName()).getResultList();
       entityTransaction.commit();
     } catch (Exception e) {
       e.printStackTrace();
